@@ -246,9 +246,9 @@ def create_test_files():
     now = time.time()
 
     '''
-    1 days = 24 hours = 86400 seconds, so range of 20-150 in here
-    means 20 days to 150 days, it will return a list of time between
-    20 days to 150 days ago.
+    1 days = 24 hours = 86400 seconds, so range of 20-7000 in here
+    means 20 days to 7000 days, it will return a list of time between
+    20 days to 7000 days ago.
     '''
     date_list = [(now - d * 86400) for d in range(20, 7000)]
 
